@@ -3,7 +3,7 @@ agent any
 stages {
 stage('clone') {
 steps {
-git branch:'main', url: ’https://github.com/sowjanya-it/Calculator.git';
+git branch:'main', url: ’https://github.com/Anjali-valluri/calculator.git';
 }
 }
 stage('compile') {
